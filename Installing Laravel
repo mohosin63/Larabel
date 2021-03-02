@@ -2,6 +2,9 @@
 #2 php artisan serve
 #3 E:\xampp\htdocs\pwad_larabel\blog>php artisan serve
 #4 E:\xampp\htdocs\pwad_larabel\blog>php artisan make:controller pagesController
+##public function index(){
+    	return view('welcome');
+    }
 #5 php artisan make:controller StudentController -r
 #6 php artisan make:model Product -mc//table create
 #7 public function up()
