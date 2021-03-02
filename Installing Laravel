@@ -4,3 +4,12 @@
 #4 E:\xampp\htdocs\pwad_larabel\blog>php artisan make:controller pagesController
 #5 php artisan make:controller StudentController -r
 #6 php artisan make:model Product -mc
+#7 public function up()
+    {
+        Schema::create('products', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('title');
+            $table->text('description')
+            $table->timestamps();
+        });
+    }
