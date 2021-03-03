@@ -8,6 +8,30 @@
 ## Route::get('/','PagesController@index');
 Route::get('/contact','PagesController@contact');
 
+## @extends('frontend.master')
+@section('content')
+
+@include('frontend.slider')
+
+@include('frontend.offers')
+
+@include('frontend.products')
+
+@include('frontend.featured')
+
+@include('frontend.new_arrivals')
+
+@include('frontend.services')
+
+@include('frontend.blog')
+
+@include('frontend.brands')
+
+@include('frontend.footer')
+
+@include('frontend.modal')
+@stop
+
 #5 php artisan make:controller StudentController -r
 #6 php artisan make:model Product -mc//table create
 #7 public function up()
