@@ -43,3 +43,13 @@ Route::get('/contact','PagesController@contact');
             $table->timestamps();
         });
     }
+    
+    </head>
+
+@include('frontend.header')
+
+
+
+@yield('content')
+
+<!-- main slider start -->
