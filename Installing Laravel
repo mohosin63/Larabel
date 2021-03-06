@@ -66,3 +66,9 @@ Route::get('/contact','PagesController@contact');
 @yield('content')
 
 <!-- main slider start -->
+//foreach
+*images*@foreach ($products as $product)
+@foreach($product->images as $img)
+{{$product->title}}
+@endforeach
+@endforeach
