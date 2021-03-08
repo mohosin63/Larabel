@@ -72,4 +72,5 @@ Route::get('/contact','PagesController@contact');
 {{$product->title}}
 @endforeach
 @endforeach
+Database create
 ##composer install
