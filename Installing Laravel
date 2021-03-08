@@ -72,3 +72,4 @@ Route::get('/contact','PagesController@contact');
 {{$product->title}}
 @endforeach
 @endforeach
+##composer install
