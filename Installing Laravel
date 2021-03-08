@@ -74,3 +74,5 @@ Route::get('/contact','PagesController@contact');
 @endforeach
 Database create
 ##composer install
+## php artisan key:generate
+## php artisan migrate
