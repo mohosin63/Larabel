@@ -37,6 +37,7 @@ Route::get('/contact','PagesController@contact');
 ##img:({{URL::to('backend/img/bg-login.jpg')}})
     
 #6 php artisan make:model Product -mc//table create
+## php artisan make:migration create_tbl_category_table --create=tbl_category
 #7 public function up()
     {
         Schema::create('products', function (Blueprint $table) {
